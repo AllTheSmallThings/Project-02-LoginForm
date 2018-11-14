@@ -1,0 +1,60 @@
+body{
+  background: url('https://files.tofugu.com/articles/japan/2015-02-06-japonism/header-5120x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+  font-family: 'Tulpen One', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.root{
+margin-left: 35rem;
+margin-top: 5rem;
+color: white;
+font-size: 2rem;
+}
+
+.login-form{
+width: 300px;
+padding: 10px 55px 35px;
+border: 2px solid gray;
+border-radius: 10px;
+}
+
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+
+label{
+color: white;
+font-size: 1.7rem;
+letter-spacing: 0.2rem;
+font-family: 'Tulpen One', cursive;
+}
+
+input[type=button]{
+font-size: 2rem;
+font-family: 'Tulpen One', cursive;
+font-weight: bold;
+color: darkgreen;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+margin-top: 2rem;
+}
+
+input[type=button]:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
